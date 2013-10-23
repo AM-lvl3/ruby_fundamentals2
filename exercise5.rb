@@ -14,3 +14,4 @@ end
 
 conv = Temp_converter.new
 conv.calculate
+#Will output temp in Celcius
