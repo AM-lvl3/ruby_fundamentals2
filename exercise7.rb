@@ -11,3 +11,7 @@ def print_cohort(pc)
 end
 
 print_cohort(students)
+
+students.merge!(:cohort4 => 43)
+
+print_cohort(students)
