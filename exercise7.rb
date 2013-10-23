@@ -15,3 +15,13 @@ print_cohort(students)
 students.merge!(:cohort4 => 43)
 
 print_cohort(students)
+
+puts students[:cohort1]
+puts students[:cohort2]
+puts students[:cohort3]
+puts students[:cohort4]
+
+
+
+
+
