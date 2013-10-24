@@ -34,3 +34,11 @@ students.delete(:cohort2)
 
 print_cohort(students)
 
+	total = 0
+	students.each do |cohort_, class_size|
+	
+	total = total + class_size
+
+	end
+puts total.to_i
+
